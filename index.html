@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="functions.js"></script>
+</head>
+<body>
+    <h1>Stipe Marić</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <h2>Informacije</h2>
+          <ul>
+            <li>Datum rođenja: 4.kolovoza 1991.</li>
+            <li>Mjesto rođenja: Mostar</li>
+            <li>Mjesto stanovanja: Grude, BiH</li>
+            <li>Adresa stanovanja: Republike Hrvatske 101</li>
+          </ul>
+        </div>
+
+        <div class="col-4">
+          <h2>Najdraže serije</h2>
+          <ul>
+            <img src="file:///C:\Users\Stipe\Desktop\test\git\stipe\img\netflix.jpg" style="width: 100%;" alt="">
+            <li>Breaking Bad</li>
+            <li>Narcos</li>
+            <li>Game of Thrones</li>
+            <li>Prison break</li>
+          </ul>
+        </div>
+
+        <div class="col-4">
+            <h2>Random broj od 1-100</h2>
+            <h2 id="tasks-header"></h2>
+          </div>
+
+      </div>
+    </div>
+    <script>
+        let tasksHeader = document.getElementById('tasks-header');
+        let randomNumber = getRandomNumber(1, 100);
+        tasksHeader.textContent = randomNumber;
+    </script>
+</body>
+</html>
+

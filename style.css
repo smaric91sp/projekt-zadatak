@@ -1,0 +1,59 @@
+body {
+    background-color: green;
+    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-4 {
+  width: 33.3333%;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #eee;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 8px 0;
+  padding: 8px;
+  background-color: #eee;
+  border-radius: 4px;
+}
